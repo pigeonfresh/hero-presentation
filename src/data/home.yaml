@@ -7,17 +7,3 @@ meta:
   category: '' # to group pages in the overview
 
 blocks:
-  - name: "header"
-    data: {}
-
-  - name: "paragraph"
-    data: "import!../app/component/block/paragraph/data/data.yaml"
-
-  - name: "paragraph"
-    data: "import!../app/component/block/paragraph/data/data-${language}.yaml"
-
-  - name: 'two-col'
-    data: 'import!../app/component/block/two-col/data/data.yaml'
-
-  - name: "footer"
-    data: {}
